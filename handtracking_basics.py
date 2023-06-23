@@ -58,6 +58,7 @@ while True:
             this function draws the connections and dots on the hands that are detected by the camera and displays 
             them over the images of the hands.
             """
+            # function - mpDraw.draw_landmarks(image to be displayed over, hand object to be displayed over, whether to show the connections or not).
             mpDraw.draw_landmarks(img, hand, mpHand.HAND_CONNECTIONS)
 
     # to calculate the fps
